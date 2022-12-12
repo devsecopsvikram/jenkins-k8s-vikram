@@ -3,7 +3,7 @@ package groovy
 import com.lesfurets.jenkins.unit.BasePipelineTest
 import org.junit.Before
 import org.junit.Test
-import com.github.liejuntao001.jenkins.MyYaml
+import jenkins.MyYaml
 
 import static junit.framework.Assert.assertEquals
 
