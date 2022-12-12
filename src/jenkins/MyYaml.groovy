@@ -1,14 +1,10 @@
-package com.github.liejuntao001.jenkins
+package jenkins
 
 @Grab('org.yaml:snakeyaml:1.25')
 
 import org.yaml.snakeyaml.Yaml
 import org.yaml.snakeyaml.constructor.SafeConstructor
 
-/*
-  Original reference:
-  https://github.com/OndraZizka/yaml-merge/blob/master/src/main/java/org/cobbzilla/util/yml/YmlMerger.java
- */
 
 class MyYaml {
   private final Yaml parser
