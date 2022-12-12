@@ -1,13 +1,4 @@
 spec:
-  tolerations:
-  - effect: NoSchedule
-    key: CriticalAddonsOnly
-    operator: Equal
-    value: "true"
-  - effect: NoSchedule
-    key: UserWorkload
-    operator: Equal
-    value: "true"
   affinity:
     podAntiAffinity:
       requiredDuringSchedulingIgnoredDuringExecution:
