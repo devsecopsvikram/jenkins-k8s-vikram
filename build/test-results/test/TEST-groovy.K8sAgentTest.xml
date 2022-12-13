@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="groovy.K8sAgentTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2022-12-12T17:26:10" hostname="vikram-VirtualBox" time="1.245">
+  <properties/>
+  <testcase name="testDoxygenExternalVersion" classname="groovy.K8sAgentTest" time="0.459"/>
+  <testcase name="testSdk25" classname="groovy.K8sAgentTest" time="0.131"/>
+  <testcase name="testSmall" classname="groovy.K8sAgentTest" time="0.082"/>
+  <testcase name="testBase" classname="groovy.K8sAgentTest" time="0.056"/>
+  <testcase name="testDind" classname="groovy.K8sAgentTest" time="0.082"/>
+  <testcase name="testFast" classname="groovy.K8sAgentTest" time="0.062"/>
+  <testcase name="testPg" classname="groovy.K8sAgentTest" time="0.084"/>
+  <testcase name="testJnlpImage" classname="groovy.K8sAgentTest" time="0.052"/>
+  <testcase name="testDoxygen" classname="groovy.K8sAgentTest" time="0.073"/>
+  <testcase name="testNoSelector" classname="groovy.K8sAgentTest" time="0.047"/>
+  <testcase name="testSelector" classname="groovy.K8sAgentTest" time="0.048"/>
+  <testcase name="testPrivileged" classname="groovy.K8sAgentTest" time="0.065"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
