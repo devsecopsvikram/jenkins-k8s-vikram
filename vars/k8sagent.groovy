@@ -1,5 +1,9 @@
 #!/usr/bin/env groovy
+<<<<<<< HEAD
 import com.github.devsecopsvikram.jenkins.MyYaml
+=======
+import jenkins.MyYaml
+>>>>>>> 001f431336f36b04b4eccab1b03b70d5ed87d3ae
 
 def call(Map opts = [:]) {
   // name is in a format of a+b+c, so the content will be added together from resource

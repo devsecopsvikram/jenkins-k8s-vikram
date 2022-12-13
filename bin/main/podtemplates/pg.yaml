@@ -1,4 +1,13 @@
 spec:
+  tolerations:
+  - effect: NoSchedule
+    key: CriticalAddonsOnly
+    operator: Equal
+    value: "true"
+  - effect: NoSchedule
+    key: UserWorkload
+    operator: Equal
+    value: "true"
   containers:
   - name: pg
     image: postgres:9.5.19

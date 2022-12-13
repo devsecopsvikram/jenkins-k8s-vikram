@@ -17,7 +17,10 @@ local.properties
 # IDE
 *.iml
 .idea
+<<<<<<< HEAD
 .vscode
+=======
+>>>>>>> 001f431336f36b04b4eccab1b03b70d5ed87d3ae
 .navigation
 captures/
 output.json

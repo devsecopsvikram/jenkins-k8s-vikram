@@ -18,8 +18,6 @@ spec:
     env:
     - name: DOCKER_TLS_CERTDIR
       value: ''
-    # Adjust the mtu value according to Kubernetes networking condition
-    # https://medium.com/@liejuntao001/fix-docker-in-docker-network-issue-in-kubernetes-cc18c229d9e5
     args:
     - "--mtu=1440"
     volumeMounts:

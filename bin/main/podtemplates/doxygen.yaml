@@ -2,7 +2,4 @@ spec:
   containers:
   - name: doxygen
     image: ${TEMPLATE_DOXYGEN_IMAGE}
-    #image: hrektts/doxygen:latest
-    # better to use your own
-    #image: docker.example.com/doxygen:v1.0.0
     tty: true
